@@ -8,9 +8,10 @@
  *
  * @author mcendrowski
  */
-public interface DonkeyFriend {
-    public String greet();
-    public String play();
-    
+public abstract class UnrealAnimal {
+    private int speed;
+    private int strength;
+    public abstract void eat();
+    public abstract void fight();
     
 }
