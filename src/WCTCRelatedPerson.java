@@ -6,14 +6,14 @@
 
 /**
  *
- * @author mcendrowski
+ * @author MCENDROWSKI
  */
-public abstract class WCTCRelatedPersons {
+public abstract class WCTCRelatedPerson {
     private String IdNumber;
     private int startOfRelation;
     private int endOfRelation;
-    private WCTCRelationTypes typeOfRelation;
-    public void setTypeOfRelation(WCTCRelationTypes relation){
+    private WCTCRelationType typeOfRelation;
+    public void setTypeOfRelation(WCTCRelationType relation){
         this.typeOfRelation=relation;
     }
     public void setStartOfRelation (int year){

@@ -6,9 +6,9 @@
 
 /**
  *
- * @author mcendrowski
+ * @author MCENDROWSKI
  */
-public abstract class Animals {
+public abstract class Animal {
 
     private int lengthtOfLife;
     private int weight;
@@ -22,5 +22,4 @@ public abstract class Animals {
     public int getWeight() {
         return this.weight;
     }
-
 }

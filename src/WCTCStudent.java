@@ -6,13 +6,11 @@
 
 /**
  *
- * @author mcendrowski
+ * @author MCENDROWSKI
  */
-public abstract class WCTCStudents extends WCTCRelatedPersons {
-    private String studentId;
+public abstract class WCTCStudent extends WCTCRelatedPerson{
+     private String studentId;
     private int currentSemester;
     public abstract void enroll();
     public abstract void graduate();
-    
-    
 }

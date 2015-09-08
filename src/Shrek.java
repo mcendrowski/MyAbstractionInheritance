@@ -14,6 +14,6 @@ public class Shrek extends Ogre implements DonkeyFriend {
     public String play(){
         return "Let's play cards.";}
     public String greet(){
-        return "Hello Shrek.";}
+        return "Hello Donkey.";}
     
 }

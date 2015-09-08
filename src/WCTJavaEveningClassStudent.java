@@ -6,7 +6,9 @@
 
 /**
  *
- * @author mcendrowski
+ * @author MCENDROWSKI
  */
-public enum WCTCRelationTypes {STUDENT,TEACHER,WORKER}
+public abstract class WCTJavaEveningClassStudent {
+    private String job;
     
+}

@@ -6,10 +6,10 @@
 
 /**
  *
- * @author mcendrowski
+ * @author MCENDROWSKI
  */
-public abstract class Mammals extends Animals {
-    private int lungsVolume;
+public abstract class Mammal extends Animal {
+     private int lungsVolume;
 
     public int getLungsVolume() {
         return lungsVolume;
@@ -17,6 +17,5 @@ public abstract class Mammals extends Animals {
 
     public void setLungsVolume(int lungsVolume) {
         this.lungsVolume = lungsVolume;
-    }
-    
+    } 
 }

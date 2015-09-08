@@ -6,16 +6,14 @@
 
 /**
  *
- * @author mcendrowski
+ * @author MCENDROWSKI
  */
-public class MyCats {
+public abstract class WCTCJavaStudent extends WCTCStudent {
 
-    public MyCats() {
-        numberOfMyCats++;
-    }
-    
+    private String finalGrade;
+    private String teacher;
+    private int courseId;
     private String name;
-    private static int numberOfMyCats;
 
     public String getName() {
         return name;
@@ -24,5 +22,4 @@ public class MyCats {
     public void setName(String name) {
         this.name = name;
     }
-    
 }

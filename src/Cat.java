@@ -6,10 +6,10 @@
 
 /**
  *
- * @author mcendrowski
+ * @author MCENDROWSKI
  */
-public abstract class Cats {
-    private String breed;
+public abstract class Cat extends Animal {
+   private String breed;  
 
     public String getBreed() {
         return breed;
@@ -17,6 +17,5 @@ public abstract class Cats {
 
     public void setBreed(String breed) {
         this.breed = breed;
-    }
-    
+    } 
 }
