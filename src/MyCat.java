@@ -8,13 +8,16 @@
  *
  * @author MCENDROWSKI
  */
-public abstract class MyCat implements Cat {
+public class MyCat implements Cat {
 
     public MyCat() {
         numberOfMyCats++;
     }
     private String name;
     private static int numberOfMyCats;
+    private String breed;
+    private int position;
+    
 
     public String getName() {
         return name;
@@ -22,6 +25,31 @@ public abstract class MyCat implements Cat {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String getBreed() {
+        return this.breed;
+    }
+
+    @Override
+    public void setBreed(String breed) {
+       this.breed=breed;
+    }
+
+    @Override
+    public void breathe() {
+        System.out.println("I breathe.");
+    }
+
+    @Override
+    public void consume() {
+        System.out.println("I eat.");
+    }
+
+    @Override
+    public void move(int distance) {
+        this.position+=distance;
     }
 
 }
