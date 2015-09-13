@@ -8,24 +8,14 @@
  *
  * @author mcendrowski
  */
-public abstract class Car extends Vehicle {
+public interface Car extends Vehicle {
 
-    private int weight;
-    private int speed;
-    private int numberOfWheels;
+    public abstract int getNumberOfWheels();
 
-    public int getNumberOfWheels() {
-        return numberOfWheels;
-    }
+    public abstract void setNumberOfWheels(int numberOfWheels);
 
-    public void setNumberOfWheels(int numberOfWheels) {
-        this.numberOfWheels = numberOfWheels;
-    }
+    public abstract String getPlateNumber();
 
-
-    public abstract void increaseSpeed(int increaseSpeed);
-    
-    @Override
-    public abstract void increaseSpeed();
+    public abstract void setPlateNumber(String plateNumber);
 
 }

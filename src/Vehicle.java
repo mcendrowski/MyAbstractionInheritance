@@ -8,26 +8,17 @@
  *
  * @author mcendrowski
  */
-public abstract class Vehicle {
+public interface Vehicle {
 
-    private int weight;
-    private int speed;
+    public abstract int getWeight();
 
-    public int getWeight() {
-        return weight;
-    }
-
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
+    public abstract void setWeight(int weight);
 
     public abstract int getSpeed();
 
-    public void setSpeed() {}
+    public abstract void setSpeed(int speed);
 
-    
-
-    public abstract void increaseSpeed();
+    public abstract void increaseSpeed(int increaseSpeed);
 
     public abstract void decreaseSpeed(int decreaseSpeed);
 }
