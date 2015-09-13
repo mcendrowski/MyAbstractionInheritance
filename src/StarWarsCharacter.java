@@ -8,6 +8,6 @@
  *
  * @author mcendrowski
  */
-public interface StarWarsCharacter  {
+public interface StarWarsCharacter extends MovieCharacter  {
     public void flyInSpace();
 }

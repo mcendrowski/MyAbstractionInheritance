@@ -10,6 +10,8 @@
  */
 public class AstronautMonkey implements Monkey, MovieCharacter, Drawing {
 
+   private String mood;
+    
     @Override
     public void run() {
     System.out.println("I am running very fast.");
@@ -38,6 +40,16 @@ public class AstronautMonkey implements Monkey, MovieCharacter, Drawing {
     @Override
     public String useColor() {
       return "I prefer blue color.";
+    }
+
+    @Override
+    public String getMood() {
+        return this.mood;
+    }
+
+    @Override
+    public void setMood(String mood) {
+        this.mood=mood;
     }
     
 }

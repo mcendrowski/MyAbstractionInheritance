@@ -8,13 +8,17 @@
  *
  * @author mcendrowski
  */
-public class LordVader extends Character implements MovieCharacter, StarWarsCharacter {
+public class LordVader implements StarWarsCharacter {
 
+    private String mood;
+    
+    
     @Override
     public String sing() {
        return "Ola la";
     }
 
+    
     @Override
     public String act() {
        return "I am dying.";
@@ -22,7 +26,21 @@ public class LordVader extends Character implements MovieCharacter, StarWarsChar
 
     @Override
     public void flyInSpace() {
-      
+      System.out.println("I can fly.");
     }
+    
+    
+    @Override
+    public String getMood(){
+        return this.mood;
+    }
+    
+    
+    @Override
+    public void setMood(String mood){
+        this.mood=mood;
+    }
+
+   
     
 }

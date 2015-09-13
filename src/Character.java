@@ -8,15 +8,10 @@
  *
  * @author mcendrowski
  */
-public abstract class Character {
+public interface Character {
 
-    private String mood;
+//    private String mood;
+    public abstract String getMood();
 
-    public String getMood() {
-        return mood;
-    }
-
-    public void setMood(String mood) {
-        this.mood = mood;
-    }
+    public abstract void setMood(String mood);
 }

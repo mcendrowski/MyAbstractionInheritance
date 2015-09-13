@@ -8,7 +8,7 @@
  *
  * @author mcendrowski
  */
-public interface MovieCharacter {
+public interface MovieCharacter extends Character {
     public abstract String sing();
     public abstract String act();
 }
