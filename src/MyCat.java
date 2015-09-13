@@ -53,11 +53,12 @@ public class MyCat implements Cat {
         this.position+=distance;
     }
 
-    
+    // why does it not need overriding???
     public int getLungsVolume(){
         return this.lungsVolume;
     }
     
+    // why does it not need overriding???
     public void setLungsVolume(int lungsVolume){
         this.lungsVolume=lungsVolume;
     }
