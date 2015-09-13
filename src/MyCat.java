@@ -17,6 +17,7 @@ public class MyCat implements Cat {
     private static int numberOfMyCats;
     private String breed;
     private int position;
+    private int lungsVolume;
     
 
     public String getName() {
@@ -52,4 +53,12 @@ public class MyCat implements Cat {
         this.position+=distance;
     }
 
+    
+    public int getLungsVolume(){
+        return this.lungsVolume;
+    }
+    
+    public void setLungsVolume(int lungsVolume){
+        this.lungsVolume=lungsVolume;
+    }
 }
