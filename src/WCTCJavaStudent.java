@@ -8,18 +8,18 @@
  *
  * @author MCENDROWSKI
  */
-public abstract class WCTCJavaStudent extends WCTCStudent {
+public interface WCTCJavaStudent {
 
-    private String finalGrade;
-    private String teacher;
-    private int courseId;
-    private String name;
+    public abstract String getFinalGrade();
 
-    public String getName() {
-        return name;
-    }
+    public abstract void setFinalGrade(String finalGrade);
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public abstract String getTeacher();
+
+    public abstract void setTeacher(String teacher);
+
+    public abstract int getCourseId();
+
+    public abstract void setCourseId(int courseId);
+
 }

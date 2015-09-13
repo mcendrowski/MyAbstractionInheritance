@@ -8,11 +8,10 @@
  *
  * @author MCENDROWSKI
  */
-public abstract class WCTCJavaWorkingStudent {
-    private String job;
+public interface WorkingPerson {
 
     public abstract String getJob();
 
     public abstract void setJob(String job);
-    
+
 }

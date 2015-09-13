@@ -8,9 +8,20 @@
  *
  * @author MCENDROWSKI
  */
-public abstract class WCTCStudent extends WCTCRelatedPerson{
-     private String studentId;
-    private int currentSemester;
+public interface WCTCStudent {
+//     private String studentId;
+//    private int currentSemester;
+
     public abstract void enroll();
+
     public abstract void graduate();
+
+    public String getStudentId();
+
+    public void setStudentId(String studentId);
+
+    public String getCurrentSemester();
+
+    public void setCurrentSemester(String currentSemester);
+
 }
