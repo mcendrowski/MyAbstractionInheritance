@@ -14,19 +14,19 @@ public abstract class UnrealAnimal {
     public abstract void eat();
     public abstract void fight();
 
-    public int getSpeed() {
+    public final int getSpeed() {
         return speed;
     }
 
-    public void setSpeed(int speed) {
+    public final void setSpeed(int speed) {
         this.speed = speed;
     }
 
-    public int getStrength() {
+    public final int getStrength() {
         return strength;
     }
 
-    public void setStrength(int strength) {
+    public final void setStrength(int strength) {
         this.strength = strength;
     }
     
