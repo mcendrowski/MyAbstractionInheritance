@@ -8,10 +8,10 @@
  *
  * @author MCENDROWSKI
  */
-public abstract class Animal {
+public interface Animal {
 
-    private int lengthtOfLife;
-    private int weight;
+//    private int lengthtOfLife;
+//    private int weight;
 
     public abstract void breathe();
 
@@ -19,7 +19,7 @@ public abstract class Animal {
 
     public abstract void move(int distance);
 
-    public int getWeight() {
-        return this.weight;
-    }
+//    public int getWeight() {
+//        return this.weight;
+//    }
 }

@@ -8,14 +8,12 @@
  *
  * @author MCENDROWSKI
  */
-public abstract class Mammal extends Animal {
-     private int lungsVolume;
+public interface Mammal extends Animal {
+    
+//     private int lungsVolume;
 
-    public int getLungsVolume() {
-        return lungsVolume;
-    }
+    public int getLungsVolume();
 
-    public void setLungsVolume(int lungsVolume) {
-        this.lungsVolume = lungsVolume;
-    } 
+    public void setLungsVolume(int lungsVolume);
+    
 }

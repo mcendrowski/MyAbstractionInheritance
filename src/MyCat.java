@@ -8,7 +8,7 @@
  *
  * @author MCENDROWSKI
  */
-public abstract class MyCat extends Cat {
+public abstract class MyCat implements Cat {
 
     public MyCat() {
         numberOfMyCats++;
