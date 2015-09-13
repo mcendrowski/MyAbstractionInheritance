@@ -9,6 +9,6 @@
  * @author mcendrowski
  */
 public interface Drawing {
-    public String draw();
-    public String useColor();
+    public abstract String draw();
+    public abstract String useColor();
 }

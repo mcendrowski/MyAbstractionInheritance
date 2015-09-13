@@ -8,9 +8,9 @@
  *
  * @author mcendrowski
  */
-public abstract class Monkey {
-    private int speed;
-    private int intelligence;
+public interface Monkey {
+//    private int speed;
+//    private int intelligence;
     public abstract void run();
     public abstract void sleep();
     

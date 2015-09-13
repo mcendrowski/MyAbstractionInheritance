@@ -9,6 +9,6 @@
  * @author mcendrowski
  */
 public interface MovieCharacter {
-    public String sing();
-    public String act();
+    public abstract String sing();
+    public abstract String act();
 }

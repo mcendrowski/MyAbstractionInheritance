@@ -8,16 +8,16 @@
  *
  * @author mcendrowski
  */
-public class AstronautMonkey extends Monkey implements MovieCharacter,Drawing {
+public class AstronautMonkey implements Monkey, MovieCharacter, Drawing {
 
     @Override
     public void run() {
-     
+    System.out.println("I am running very fast.");
     }
 
     @Override
     public void sleep() {
-       
+       System.out.println("I am a heavy sleeper");
     }
 
     @Override
