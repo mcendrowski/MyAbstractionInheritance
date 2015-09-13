@@ -9,10 +9,8 @@
  * @author MCENDROWSKI
  */
 public interface Cat extends Animal {
-//   private String breed;  
 
     public String getBreed();
-    
 
     public void setBreed(String breed);
 }

@@ -9,11 +9,9 @@
  * @author MCENDROWSKI
  */
 public interface Mammal extends Animal {
-    
-//     private int lungsVolume;
 
     public int getLungsVolume();
 
     public void setLungsVolume(int lungsVolume);
-    
+
 }

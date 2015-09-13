@@ -10,16 +10,10 @@
  */
 public interface Animal {
 
-//    private int lengthtOfLife;
-//    private int weight;
-
     public abstract void breathe();
 
     public abstract void consume();
 
     public abstract void move(int distance);
 
-//    public int getWeight() {
-//        return this.weight;
-//    }
 }
