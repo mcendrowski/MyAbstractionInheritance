@@ -8,43 +8,78 @@
  *
  * @author mcendrowski
  */
-public class MyCar extends PassengerCar {
+public class MyCar implements Car, NumberOfPassengers {
 
+    private int numberOfPassengers;
     private String plateNumber;
+    private int numberOfWheels;
     private int speed;
     private int weight;
 
     @Override
-    public void increaseSpeed() {
+    public int getNumberOfPassengers() {
+        return this.numberOfPassengers;
     }
 
     @Override
-    public void increaseSpeed(int increaseSpeed) {
+    public void setNumberOfPassengers(int numberOfPassengers) {
+        this.numberOfPassengers = numberOfPassengers;
     }
 
+    
     @Override
-    public void decreaseSpeed(int decreaseSpeed) {
+    public String getPlateNumber() {
+        return this.plateNumber;
     }
+    
+    
+    @Override
+    public void setPlateNumber(String plateNumber){
+        this.plateNumber=plateNumber;
+    }
+    
+    
+    @Override
+    public int getNumberOfWheels(){
+        return this.numberOfWheels;
+    }
+    
+    
+    @Override
+    public void setNumberOfWheels(int numberOfWheels){
+        this.numberOfWheels=numberOfWheels;
+    }
+    
+    
+    @Override
+    public int getWeight(){
+        return this.weight;
+    }
+    
+    
+    @Override
+    public void setWeight(int weight){
+        this.weight=weight;
+    }    
+   
+    @Override
+    public void increaseSpeed(int increaseSpeed){
+        this.speed+=increaseSpeed;
+    }
+    
+    @Override
+     public void decreaseSpeed(int decreaseSpeed){
+        this.speed-=decreaseSpeed;
+    }   
+
 
     @Override
     public int getSpeed() {
-        return speed;
+        return this.speed;
     }
 
     @Override
-    public int getWeight() {
-        int a=2;
-        return this.weight;
-        
+    public void setSpeed(int speed) {
+        this.speed=speed;
     }
-
-    public void setNumberOfPassengers() {
-        int a=2;
-        
-    }
-
-    public void setNumberOfPassengers(int numberOfPassangers) {
-        super.setNumberOfPassangers(numberOfPassangers);        
-    }
-    
 }
