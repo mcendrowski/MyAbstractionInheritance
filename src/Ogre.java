@@ -8,7 +8,7 @@
  *
  * @author mcendrowski
  */
-public abstract class Ogre extends UnrealAnimal {
-    @Override
-    public void eat(){}
+public interface Ogre {
+    
+    public abstract void actLikeOgre();
 }

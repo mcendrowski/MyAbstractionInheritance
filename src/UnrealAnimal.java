@@ -13,5 +13,22 @@ public abstract class UnrealAnimal {
     private int strength;
     public abstract void eat();
     public abstract void fight();
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+
+    public int getStrength() {
+        return strength;
+    }
+
+    public void setStrength(int strength) {
+        this.strength = strength;
+    }
+    
     
 }
