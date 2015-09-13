@@ -10,7 +10,7 @@
  */
 public interface Cat extends Animal {
 
-    public String getBreed();
+    public abstract String getBreed();
 
-    public void setBreed(String breed);
+    public abstract void setBreed(String breed);
 }

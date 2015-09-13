@@ -10,8 +10,8 @@
  */
 public interface Mammal extends Animal {
 
-    public int getLungsVolume();
+    public abstract int getLungsVolume();
 
-    public void setLungsVolume(int lungsVolume);
+    public abstract void setLungsVolume(int lungsVolume);
 
 }
